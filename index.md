@@ -1,21 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Using the autocomplete attribute</title>
-<link rel="stylesheet" href="../common.css" type="text/css">
-</head>
-<body>
-<h1>Using the autocomplete Attribute</h1>
-<p>Some browsers provide native support for remembering the values of form fields and displaying those
-values to the user to speed data entry later.</p>
- <p>The <code>autocomplete</code> attribute allows you to control whether a form field remembers its value. 
- Try changing the values of the autocomplete attribute in the source code of this demo to see 
- what happens.</p>
-<form method="get" action="">
-<p><label for="Text1">Field 1: </label><input name="Text1" type="text" id="Text1" autocomplete="on" /></p>
-<p><label for="Text2">Field 2: </label><input name="Text2" type="text" id="Text2" autocomplete="off" /></p>
-<p><label for="Text3">Field 3: </label><input name="Text3" type="text" id="Text3" autocomplete="off" /></p>
-<p><input type="submit" value="Submit" /></p>
-</form>
-</body>
-</html>
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/jedcadorna/jedi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jedcadorna/jedi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
